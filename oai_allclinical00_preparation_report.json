@@ -1,0 +1,29 @@
+{
+  "source_rows": 4796,
+  "rows_with_valid_radiographic_outcome": 4795,
+  "excluded_missing_or_nonstandard_outcome_rows": 1,
+  "outcome": {
+    "source_column": "P01XRKOA",
+    "definition": "Any baseline radiographic knee OA. OAI code 0 is neither knee; codes 1, 2, and 3 indicate right, left, or both knees.",
+    "positive_rows": 2679,
+    "negative_rows": 2116
+  },
+  "features": {
+    "age_years": "V00AGE - age at baseline",
+    "bmi": "P01BMI - calculated body mass index",
+    "frequent_knee_symptom_status": "P01KSX - person-level frequent knee pain status",
+    "prior_knee_injury": "P02KINJ - prior knee injury severe enough to impair walking for at least one week",
+    "family_history_knee_replacement": "P02FAMHXKR - blood relative with knee replacement",
+    "frequent_stair_climbing": "P02PA1 - climbs at least 10 flights of stairs on most days",
+    "frequent_kneeling": "P02PA2 - kneels for 30 minutes or more on most days",
+    "frequent_deep_knee_bending": "P02PA3 - squats or deeply bends knees for 30 minutes or more on most days",
+    "womac_total_worse_knee": "Maximum of V00WOMTSL and V00WOMTSR",
+    "koos_pain_worse_knee": "Minimum of V00KOOSKPR and V00KOOSKPL; lower KOOS means worse pain",
+    "patellofemoral_crepitus_any": "Maximum of V00RKPFCRE and V00LKPFCRE",
+    "knee_effusion_any": "Maximum of V00RKEFFB and V00LKEFFB",
+    "flexion_contracture_worse_deg": "Maximum non-negative flexion contracture from V00RKFHDEG and V00LKFHDEG",
+    "chair_stand_time_sec_mean": "Mean of V00CSTIME1 and V00CSTIME2",
+    "walk_400m_time_sec": "V00400MTIM - 400 metre walk time"
+  },
+  "safety": "No radiographic source field is retained as a predictor. This data is suitable for research screening model development, not clinical deployment."
+}

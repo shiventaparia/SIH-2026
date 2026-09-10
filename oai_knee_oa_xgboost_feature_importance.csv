@@ -1,0 +1,16 @@
+feature,importance
+numeric__patellofemoral_crepitus_any,0.19641763
+numeric__koos_pain_worse_knee,0.11147088
+numeric__flexion_contracture_worse_deg,0.106992364
+numeric__bmi,0.10215515
+numeric__age_years,0.09193513
+numeric__womac_total_worse_knee,0.08140483
+numeric__frequent_knee_symptom_status,0.07117385
+numeric__knee_effusion_any,0.067645445
+numeric__prior_knee_injury,0.06539625
+numeric__frequent_deep_knee_bending,0.0356956
+numeric__walk_400m_time_sec,0.030881112
+numeric__chair_stand_time_sec_mean,0.022681521
+numeric__frequent_kneeling,0.016150236
+numeric__frequent_stair_climbing,0.0
+numeric__family_history_knee_replacement,0.0
